@@ -11,28 +11,27 @@ $ yarn install or npm install
 
 ### File Structure
 
->-repo
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-build
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    - * all the react generated build files for static serving through express server.
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-public
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Also react generated folder you can edit the files here to reflect in build process.
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-server
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -controllers
-     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- index.js
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Put all your controllers in this folder.
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -models
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Put all your MongoDB models here.
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -routes
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- index.js
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Put all your router files here.
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -utils
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- utils.js
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - app.js (main express server file)
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-src (All the React code goes in here)
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- componenets
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;.env
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;package.json
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; README.md
+    - build 
+         - * all the react generated build files for static serving through express server.
+    -public
+        - Also react generated folder you can edit the files here to reflect in build process.
+    -server
+        -controllers
+            - index.js
+            - Put all your controllers in this folder.
+        -models
+            - Put all your MongoDB models here.
+        -routes
+            - index.js
+            - Put all your router files here.
+        -utils
+            - utils.js
+        - app.js (main express server file)
+    -src (All the React code goes in here)
+        - componenets
+    - .env
+    - .json
+    - README.md
 
 
 ## Features
@@ -56,7 +55,7 @@ $ yarn install or npm install
 Open an issue if you found a bug or problem
 Create PRs for new features
 
-##### If the repo helped you leave a star.
+#### If the
 
 # Author
 [Praveen Kumar](https://github.com/pkspyder007)
